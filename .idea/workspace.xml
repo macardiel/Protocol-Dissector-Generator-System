@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9ff524-703c-441d-b6b0-0fe1f68e081d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/component.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/field.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,17 +14,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_decision_tree.coverage" NAME="protocol_decision_tree Coverage Results" MODIFIED="1526272016800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_manager.coverage" NAME="protocol_manager Coverage Results" MODIFIED="1526316533255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
+    <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_manager.coverage" NAME="protocol_manager Coverage Results" MODIFIED="1526322547910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
     <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_decision_tree__1_.coverage" NAME="protocol_decision_tree (1) Coverage Results" MODIFIED="1526272037509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
-    <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$intermediate_script.coverage" NAME="intermediate_script Coverage Results" MODIFIED="1526317341130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
+    <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$intermediate_script.coverage" NAME="intermediate_script Coverage Results" MODIFIED="1526322310646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="protocol_manager.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="protocol_manager.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="378">
+              <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +35,8 @@
       <file leaf-file-name="protocol_decision_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+            <state relative-caret-position="1445">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -49,14 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intermediate_script.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="intermediate_script.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -147,10 +139,11 @@
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py" />
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py" />
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py" />
-        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py" />
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py" />
-        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/pretty_printing.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py" />
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" />
       </list>
     </option>
   </component>
@@ -210,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.intermediate_script">
+  <component name="RunManager" selected="Python.protocol_manager">
     <configuration name="intermediate_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Protocol-Dissector-Generator-System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,8 +288,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.intermediate_script" />
         <item itemvalue="Python.protocol_manager" />
+        <item itemvalue="Python.intermediate_script" />
         <item itemvalue="Python.protocol_decision_tree (1)" />
         <item itemvalue="Python.protocol_decision_tree" />
       </list>
@@ -358,6 +351,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -426,29 +422,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/pretty_printing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+        <state relative-caret-position="1445">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py">
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py">
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="378">
+          <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
