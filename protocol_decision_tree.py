@@ -21,6 +21,19 @@ class ProtocolDecisionTree:
         self.PDT_end = self.PDT_end.NextField
         self.componentCount += 1
 
+    def deleteComponent(self, component):
+        currentParent = self.PDT
+        current = currentParent.getNext()
+        while current:
+            if str(current.FieldID) == str(component):
+                currentParent.setNext(current.getNext())
+                return
+            else:
+                currentParent = current
+                current = current.getNext()
+        print "Error: Component does not exist in PDT"
+        return
+
     def enterDescription(self, description):
         self.PDT_Description = '' + description
 
@@ -85,3 +98,10 @@ if __name__ == '__main__':
     print str(root.findComponent('comp3'))
     print str(root)
     print root.detailedPDT()
+    temp = root.findComponent('comp1')
+    print temp.detailedStr()
+    print str(root)
+    root.addEndField()
+    print str(root)
+    root.deleteComponent('comp2')
+    print str(root)
