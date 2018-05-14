@@ -37,9 +37,17 @@ class ProtocolDecisionTree:
     def enterDescription(self, description):
         self.PDT_Description = '' + description
 
+    def addField(self):
+        ID = 'comp' + str(self.componentCount)
+        self.updatePDTEnd(Field(ID))
+
     def addField(self, name, abbrev, descr, referencelist, datatype, base, mask, valueconstr, required):
         ID = 'comp' + str(self.componentCount)
         self.updatePDTEnd(Field(ID, name, abbrev, descr, referencelist, datatype, base, mask, valueconstr, required))
+
+    def addStartField(self):
+        ID = 'comp' + str(self.componentCount)
+        self.updatePDTEnd(StartField(ID))
 
     def addStartField(self, protocolname, protocoldescr, dependentprotoname, dependencypattern):
         ID = 'comp' + str(self.componentCount)
@@ -48,6 +56,10 @@ class ProtocolDecisionTree:
     def addEndField(self):
         ID = 'comp' + str(self.componentCount)
         self.updatePDTEnd(EndField(ID))
+
+    def addReferenceList(self):
+        ID = 'comp' + str(self.componentCount)
+        self.updatePDTEnd(ReferenceList(ID))
 
     def addReferenceList(self, reflistname):
         ID = 'comp' + str(self.componentCount)
