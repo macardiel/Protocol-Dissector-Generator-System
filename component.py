@@ -5,17 +5,20 @@ class Component:
         self.FieldType = ftype
         self.NextField = nextField
 
+    def setFieldID(self, fID):
+        self.FieldID = fID
+
     def getFieldID(self):
         return self.FieldID
+
+    def setType(self, ftype):
+        self.FieldType = ftype
 
     def getType(self):
         return self.FieldType
 
     def getNext(self):
         return self.NextField
-
-    def setType(self, ftype):
-        self.FieldType = ftype
 
     def setNext(self, nextField):
         self.NextField = nextField
@@ -24,10 +27,10 @@ class Component:
         return str(self)
 
     def __str__(self):
-        component = '(' + self.FieldID + ':' + self.FieldType
+        component = '(' + str(self.FieldID) + ':' + str(self.FieldType)
         if self.NextField:
             nextID = self.NextField.FieldID
-            component += ':' + nextID + ')'
+            component += ':' + str(nextID) + ')'
         else:
             component += ':None)'
         return component

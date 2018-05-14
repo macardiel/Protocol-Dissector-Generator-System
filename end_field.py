@@ -6,11 +6,11 @@ class EndField(Component):
         Component.__init__(self, ID, 'end_field', None)
 
     def detailedStr(self):
-        currField = '(' + self.FieldID + ':' + self.FieldType
+        currField = '(' + str(self.FieldID) + ':' + str(self.FieldType)
 
         if self.NextField:
-            nextID = self.NextField.FieldID
-            currField += ':' + nextID + ')'
+            nextID = str(self.NextField.FieldID)
+            currField += ':' + str(nextID) + ')'
         else:
             currField += ':None)'
         return currField
