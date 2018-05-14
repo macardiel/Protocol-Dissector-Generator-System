@@ -36,7 +36,7 @@ class ReferenceList(Component):
 
     def detailedStr(self):
         currField = '(' + str(self.FieldID) + ':' + str(self.FieldType) + ':' + \
-                    str(self.REFERENCELIST) + ':' + str(self.REFERENCELIST)
+                    str(self.REFERENCELISTNAME) + ':' + str(self.REFERENCELIST)
 
         if self.NextField:
             nextID = self.NextField.FieldID
