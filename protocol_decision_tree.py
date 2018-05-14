@@ -118,3 +118,12 @@ if __name__ == '__main__':
     print str(test)
     test.addEndField()
     print str(test)
+    test.deleteComponent('comp3')
+    print str(test)
+    test.deleteComponent('comp2')
+    test.deleteComponent('comp4')
+    test.deleteComponent('comp1')
+    print str(test)
+    test.deleteComponent('comp5')
+    print str(test)
+
