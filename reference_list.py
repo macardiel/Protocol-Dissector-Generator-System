@@ -2,6 +2,11 @@ from component import Component
 
 class ReferenceList(Component):
 
+    def __init__(self, ID):
+        Component.__init__(self, ID, 'reference_list', None)
+        self.REFERENCELISTNAME = reflistname
+        self.REFERENCELIST = {}
+
     def __init__(self, ID, reflistname):
         Component.__init__(self, ID, 'reference_list', None)
         self.REFERENCELISTNAME = reflistname

@@ -1,5 +1,10 @@
 class Component:
 
+    def __init__(self, fID):
+        self.FieldID = fID
+        self.FieldType = 'DEFAULT'
+        self.NextField = None
+
     def __init__(self, fID, ftype, nextField):
         self.FieldID = fID
         self.FieldType = ftype

@@ -2,6 +2,13 @@ from component import Component
 
 class StartField(Component):
 
+    def __init__(self):
+        Component.__init__(self, ID)
+        self.PROTOCOLNAME = 'DEFAULT'
+        self.PROTOCOLDESCR = 'DEFAULT'
+        self.DEPENDENTPROTONAME = 'DEFAULT'
+        self.DEPENDENCYPATTERN = 'DEFAULT'
+
     def __init__(self, ID, protocolname, protocoldescr, dependentprotoname, dependencypattern):
         Component.__init__(self, ID, 'start_field', None)
         self.PROTOCOLNAME = protocolname
