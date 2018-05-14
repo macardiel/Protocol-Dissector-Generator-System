@@ -1,6 +1,7 @@
 from protocol_decision_tree import ProtocolDecisionTree
+#from intermediate_script import IntermediateScript
 
-class protocol_manager:
+class ProtocolManager:
 
     def __init__(self):
         self.PDT = ProtocolDecisionTree()
@@ -57,18 +58,19 @@ class protocol_manager:
         pass
 
 if __name__ == '__main__':
-    test = protocol_manager()
-    print str(test.PDT)
-    test.setPDTDescription("test pdt")
-    print test.getPDTDescription()
-    test.addStartField()
-    print str(test.PDT)
-    test.addField()
-    print str(test.PDT)
-    test.addPacketInfoList()
-    print str(test.PDT)
-    test.addReferenceList()
-    print str(test.PDT)
-    test.addEndField()
-    print str(test.PDT)
-    print str(test.PDT.detailedPDT())
+    pass
+    # test = protocol_manager()
+    # print str(test.PDT)
+    # test.setPDTDescription("test pdt")
+    # print test.getPDTDescription()
+    # test.addStartField()
+    # print str(test.PDT)
+    # test.addField()
+    # print str(test.PDT)
+    # test.addPacketInfoList()
+    # print str(test.PDT)
+    # test.addReferenceList()
+    # print str(test.PDT)
+    # test.addEndField()
+    # print str(test.PDT)
+    # print str(test.PDT.detailedPDT())

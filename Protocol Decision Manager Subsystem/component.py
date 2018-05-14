@@ -23,6 +23,9 @@ class Component:
     def setNext(self, nextField):
         self.NextField = nextField
 
+    def encapsulate(self):
+        return [self.FieldID, self.FieldType, self.NextField]
+
     def detailedStr(self):
         return str(self)
 

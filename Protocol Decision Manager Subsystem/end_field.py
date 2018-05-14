@@ -5,6 +5,9 @@ class EndField(Component):
     def __init__(self, ID):
         Component.__init__(self, ID, 'end_field', None)
 
+    def encapsulate(self):
+        return [self.FieldID, self.FieldType, self.NextField]
+
     def detailedStr(self):
         currField = '(' + str(self.FieldID) + ':' + str(self.FieldType)
 

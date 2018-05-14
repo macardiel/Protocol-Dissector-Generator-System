@@ -27,6 +27,10 @@ class PacketInformation(Component):
     def delPacketInfoElement(self, key):
         del(self.PACKETINFOLIST[key])
 
+    def encapsulate(self):
+        return [self.FieldID, self.FieldType, self.NextField,
+                self.PACKETINFOLIST]
+
     def detailedStr(self):
         currField = '(' + str(self.FieldID) + ':' + str(self.FieldType) + ':' + str(self.PACKETINFOLIST)
 

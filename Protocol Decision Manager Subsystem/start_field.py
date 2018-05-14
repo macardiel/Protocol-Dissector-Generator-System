@@ -18,20 +18,25 @@ class StartField(Component):
     def setROTOCOLDESCR(self, protocoldescr):
         self.PROTOCOLDESCR = protocoldescr
 
-    def setROTOCOLDESCR(self, protocoldescr):
+    def getROTOCOLDESCR(self, protocoldescr):
         return self.PROTOCOLDESCR
 
     def setDEPENDENTPROTONAME(self, dependentprotoname):
         self.DEPENDENTPROTONAME = dependentprotoname
 
-    def setDEPENDENTPROTONAME(self, dependentprotoname):
+    def getDEPENDENTPROTONAME(self, dependentprotoname):
         return self.DEPENDENTPROTONAME
 
     def setDEPENDENCYPATTERN(self, dependencypattern):
         self.DEPENDENCYPATTERN = dependencypattern
 
-    def setDEPENDENCYPATTERN(self, dependencypattern):
+    def getDEPENDENCYPATTERN(self, dependencypattern):
         return self.DEPENDENCYPATTERN
+
+    def encapsulate(self):
+        return [self.FieldID, self.FieldType, self.NextField,
+                self.PROTOCOLNAME, self.PROTOCOLDESCR,
+                self.DEPENDENTPROTONAME, self.DEPENDENCYPATTERN]
 
     def detailedStr(self):
         currField = '(' + str(self.FieldID) + ':' + str(self.FieldType) + \

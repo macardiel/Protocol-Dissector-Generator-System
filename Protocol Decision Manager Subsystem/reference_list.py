@@ -34,6 +34,10 @@ class ReferenceList(Component):
     def delReferenceElement(self, key):
         del(self.REFERENCELIST[key])
 
+    def encapsulate(self):
+        return [self.FieldID, self.FieldType, self.NextField,
+                self.REFERENCELISTNAME, self.REFERENCELIST]
+
     def detailedStr(self):
         currField = '(' + str(self.FieldID) + ':' + str(self.FieldType) + ':' + \
                     str(self.REFERENCELISTNAME) + ':' + str(self.REFERENCELIST)

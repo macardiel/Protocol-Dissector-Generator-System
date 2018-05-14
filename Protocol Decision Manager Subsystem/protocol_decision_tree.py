@@ -9,12 +9,13 @@ class ProtocolDecisionTree:
 
     def __init__(self, name = 'DEFAULT'):
         self.componentCount = 0
+
         root_ID = 'comp' + str(self.componentCount)
         self.PDT = Component(root_ID, 'root', None)
-        self.PDT_end = self.PDT
         self.PDT_Description = ""
         self.PDT_name = name
 
+        self.PDT_end = self.PDT
         self.componentCount += 1
 
     def setPDTName(self, name):

@@ -68,6 +68,11 @@ class Field(Component):
     def getREQUIRED(self):
         return self.REQUIRED
 
+    def encapsulate(self):
+        return [self.FieldID, self.FieldType, self.NextField,
+                self.NAME, self.ABBREV, self.DESCRIPTION, self.REFERENCELIST,
+                self.DATATYPE, self.BASE, self.MASK, self.VALUECONSTR, self.REQUIRED]
+
     def detailedStr(self):
         currField = '(' + str(self.FieldID) + ':'+ str(self.FieldType) + \
                     ':' + str(self.NAME) + ':' + str(self.ABBREV) + \

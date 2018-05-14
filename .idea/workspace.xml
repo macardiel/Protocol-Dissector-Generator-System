@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9ff524-703c-441d-b6b0-0fe1f68e081d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/component.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/field.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +22,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_decision_tree.coverage" NAME="protocol_decision_tree Coverage Results" MODIFIED="1526272016800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_manager.coverage" NAME="protocol_manager Coverage Results" MODIFIED="1526274191217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
+    <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_manager.coverage" NAME="protocol_manager Coverage Results" MODIFIED="1526316533255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
     <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$protocol_decision_tree__1_.coverage" NAME="protocol_decision_tree (1) Coverage Results" MODIFIED="1526272037509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
+    <SUITE FILE_PATH="coverage/Protocol_Dissector_Generator_System$intermediate_script.coverage" NAME="intermediate_script Coverage Results" MODIFIED="1526317341130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="protocol_manager.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="protocol_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -32,8 +40,8 @@
       <file leaf-file-name="protocol_decision_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+            <state relative-caret-position="881">
+              <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -41,11 +49,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="intermediate_script.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/component.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="field.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/field.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_field.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="reference_list.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="286">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -53,8 +100,17 @@
       <file leaf-file-name="packet_information.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="303">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="end_field.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -86,10 +142,15 @@
         <option value="$PROJECT_DIR$/expression_construct.py" />
         <option value="$PROJECT_DIR$/decision_construct.py" />
         <option value="$PROJECT_DIR$/connector_construct.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/component.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/field.py" />
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py" />
-        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" />
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py" />
         <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py" />
+        <option value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py" />
       </list>
     </option>
   </component>
@@ -103,9 +164,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -149,7 +210,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.protocol_manager">
+  <component name="RunManager" selected="Python.intermediate_script">
+    <configuration name="intermediate_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Protocol-Dissector-Generator-System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protocol Decision Manager Subsystem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="protocol_decision_tree (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Protocol-Dissector-Generator-System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,9 +291,11 @@
       <item itemvalue="Python.protocol_decision_tree" />
       <item itemvalue="Python.protocol_decision_tree (1)" />
       <item itemvalue="Python.protocol_manager" />
+      <item itemvalue="Python.intermediate_script" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.intermediate_script" />
         <item itemvalue="Python.protocol_manager" />
         <item itemvalue="Python.protocol_decision_tree (1)" />
         <item itemvalue="Python.protocol_decision_tree" />
@@ -238,50 +320,27 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27172413" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1328125" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1328125" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.27172413" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -295,103 +354,82 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/start_node_construct.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/end_node_construct.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decision_construct.py">
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="187">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connector_construct.py">
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expression_construct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packet_information.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reference_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/end_field.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start_field.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/field.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protocol_decision_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="1309">
+          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/decision_construct.py" />
+    <entry file="file://$PROJECT_DIR$/connector_construct.py" />
+    <entry file="file://$PROJECT_DIR$/expression_construct.py" />
+    <entry file="file://$PROJECT_DIR$/packet_information.py" />
+    <entry file="file://$PROJECT_DIR$/reference_list.py" />
+    <entry file="file://$PROJECT_DIR$/end_field.py" />
+    <entry file="file://$PROJECT_DIR$/start_field.py" />
+    <entry file="file://$PROJECT_DIR$/field.py" />
+    <entry file="file://$PROJECT_DIR$/component.py" />
+    <entry file="file://$PROJECT_DIR$/protocol_decision_tree.py" />
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/expression_construct.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/packet_information.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="303">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/end_field.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/reference_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/start_field.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/field.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/component.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_decision_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+        <state relative-caret-position="881">
+          <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -400,8 +438,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/protocol_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protocol Decision Manager Subsystem/intermediate_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
