@@ -3,7 +3,7 @@ from component import Component
 class PacketInformation(Component):
 
     def __init__(self, ID):
-        Component.__init__(self, ID, 'reference_list', None)
+        Component.__init__(self, ID, 'packet_info_list', None)
         self.PACKETINFOLIST = {}
 
     def setPACKETINFOLIST(self, PIList):

@@ -7,14 +7,27 @@ from packet_information import PacketInformation
 
 class ProtocolDecisionTree:
 
-    def __init__(self):
+    def __init__(self, name = 'DEFAULT'):
         self.componentCount = 0
         root_ID = 'comp' + str(self.componentCount)
         self.PDT = Component(root_ID, 'root', None)
         self.PDT_end = self.PDT
         self.PDT_Description = ""
+        self.PDT_name = name
 
         self.componentCount += 1
+
+    def setPDTName(self, name):
+        self.PDT_name = name
+
+    def getPDTName(self):
+        return self.PDT_name
+
+    def getDescription(self):
+        return self.PDT_Description
+
+    def enterDescription(self, description):
+        self.PDT_Description = '' + description
 
     def updatePDTEnd(self, object):
         self.PDT_end.NextField = object
@@ -33,12 +46,6 @@ class ProtocolDecisionTree:
                 current = current.getNext()
         print "Error: Component does not exist in PDT"
         return
-
-    def getDescription(self):
-        return self.PDT_Description
-
-    def enterDescription(self, description):
-        self.PDT_Description = '' + description
 
     def addField(self, name = 'DEFAULT', abbrev = 'DEFAULT', descr = 'DEFAULT', referencelist = None,
                  datatype = 'DEFAULT', base = 'DEFAULT', mask = 'DEFAULT', valueconstr = 'DEFAULT', required = False):
@@ -73,7 +80,7 @@ class ProtocolDecisionTree:
 
     def detailedPDT(self):
         current = self.PDT
-        PDT_str = '[ ' + current.detailedStr() + ' '
+        PDT_str = 'Protocol Decission Tree: ' + self.getPDTName() + '. "' + self.getDescription() + '"\n' + '[' + current.detailedStr() + ' '
         current = current.NextField
         while current:
             PDT_str += current.detailedStr() + ' '
@@ -83,7 +90,7 @@ class ProtocolDecisionTree:
 
     def __str__(self):
         current = self.PDT
-        PDT_str = '[ ' + str(current) + ' '
+        PDT_str = '[' + str(current) + ' '
         current = current.NextField
         while current:
             PDT_str += str(current) + ' '

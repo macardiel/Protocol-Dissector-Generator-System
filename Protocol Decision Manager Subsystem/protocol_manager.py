@@ -8,6 +8,12 @@ class protocol_manager:
     def getPDT(self):
         return self.PDT
 
+    def setPDTName(self, name):
+        self.PDT.setPDTName()
+
+    def getPDTName(self):
+        return self.PDT.PDT_name
+
     def setPDTDescription(self, description):
         self.PDT.enterDescription('' + description)
 
