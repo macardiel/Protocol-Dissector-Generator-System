@@ -6,4 +6,3 @@ class DecisionConstruct:
         Component.__init__(self, ID, 'expression', None)
         self.PreviousField = previousField
         self.EXPRESSIONRESULT = result
-
