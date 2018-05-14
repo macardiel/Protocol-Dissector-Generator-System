@@ -34,6 +34,9 @@ class ProtocolDecisionTree:
         print "Error: Component does not exist in PDT"
         return
 
+    def getDescription(self):
+        return self.PDT_Description
+
     def enterDescription(self, description):
         self.PDT_Description = '' + description
 
@@ -89,41 +92,5 @@ class ProtocolDecisionTree:
         return PDT_str
 
 if __name__ == '__main__':
-    # root = ProtocolDecisionTree()
-    # #root.printPDT()
-    # print str(root)
-    # root.addField('newField', 'nf', 'a new field', 'None', 'int', '8', 'None', 'None', '0')
-    # root.addStartField('startfield', 'n/a', 'n/a', 'n/a')
-    # #root.printPDT()
-    # print str(root)
-    # print str(root.findComponent('comp1'))
-    # print str(root.findComponent('comp3'))
-    # print str(root)
-    # print root.detailedPDT()
-    # temp = root.findComponent('comp1')
-    # print temp.detailedStr()
-    # print str(root)
-    # root.addEndField()
-    # print str(root)
-    # root.deleteComponent('comp2')
-    # print str(root)
-    test = ProtocolDecisionTree()
-    test.addStartField("Hyper Text Transfer Protocol", "Transfer text accross the web", "", "")
-    print str(test)
-    test.addField()
-    print str(test)
-    test.addReferenceList()
-    print str(test)
-    test.addPacketInfoList()
-    print str(test)
-    test.addEndField()
-    print str(test)
-    test.deleteComponent('comp3')
-    print str(test)
-    test.deleteComponent('comp2')
-    test.deleteComponent('comp4')
-    test.deleteComponent('comp1')
-    print str(test)
-    test.deleteComponent('comp5')
-    print str(test)
+    pass
 
