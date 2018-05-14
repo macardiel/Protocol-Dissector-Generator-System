@@ -2,18 +2,6 @@ from component import Component
 
 class Field(Component):
 
-    def __init__(self, ID):
-        Component.__init__(self, ID, 'field', None)
-        self.NAME = 'DEFAULT'
-        self.ABBREV = 'DEFAULT'
-        self.DESCRIPTION = 'DEFAULT'
-        self.REFERENCELIST = None
-        self.DATATYPE = 'DEFAULT'
-        self.BASE = 'DEFAULT'
-        self.MASK = 'DEFAULT'
-        self.VALUECONSTR = 'DEFAULT'
-        self.REQUIRED = False
-
     def __init__(self, ID, name, abbrev, descr, referencelist, datatype, base, mask, valueconstr, required):
         Component.__init__(self, ID, 'field', None)
         self.NAME = name
