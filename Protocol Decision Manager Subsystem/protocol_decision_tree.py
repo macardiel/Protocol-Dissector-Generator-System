@@ -41,6 +41,8 @@ class ProtocolDecisionTree:
         while current:
             if str(current.FieldID) == str(component):
                 currentParent.setNext(current.getNext())
+                if currentParent.getNext() == None:
+                    self.PDT_end = currentParent;
                 return
             else:
                 currentParent = current

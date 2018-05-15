@@ -24,16 +24,7 @@ class ProtocolManager:
 
     def deleteComponent(self, component):
         currentParent = self.PDT
-        current = currentParent.getNext()
-        while current:
-            if str(current.FieldID) == str(component):
-                currentParent.setNext(current.getNext())
-                return
-            else:
-                currentParent = current
-                current = current.getNext()
-        print "Error: Component does not exist in PDT"
-        return
+        currentParent.deleteComponent(component)
 
     def addField(self, name = 'DEFAULT', abbrev = 'DFLT', descr = '', referencelist = None,
                  datatype = 'None', base = 'base.NONE', mask = 'None', valueconstr = 'None', required = False):
